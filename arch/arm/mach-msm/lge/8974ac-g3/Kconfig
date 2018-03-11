@@ -68,7 +68,7 @@ config MACH_MSM8974_G3_CA
 	bool "MSM8974 G3 CA"
 	help
 	  Support for the Qualcomm MSM8974 G3 Canada device.
-	
+
 config MACH_MSM8974_G3_CN
 	depends on ARCH_MSM8974
 	select MACH_LGE
@@ -108,9 +108,3 @@ config MACH_MSM8974_G3_OPEN_HK
 	bool "MSM8974 G3 OPEN HK"
 	help
 	  Support for the Qualcomm MSM8974 G3 OPEN_HK device.
-	  
-config MACH_MSM8974_G3_GLOBAL_COM_LOWMEM
- 	depends on MACH_MSM8974_G3_GLOBAL_COM
- 	bool "MSM8974 G3 GLOBAL COM LOWMEM"
- 	help
- 	  Support for the Qualcomm MSM8974 G3 GLOBAL LOWMEM device.	  

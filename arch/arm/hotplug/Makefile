@@ -17,3 +17,4 @@ obj-y         += autosmp.o
 obj-y += blu_plug.o
 obj-y += fast_hotplug.o
 #obj-y += aero_hotplug.o
+obj-y += lazyplug.o
